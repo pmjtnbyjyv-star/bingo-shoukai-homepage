@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ご依頼・お問い合わせ｜有限会社備後商会</title>
+    <meta name="description" content="有限会社備後商会への輸送依頼、求人応募、各種お問い合わせはこちらからご連絡ください。電話でのお問い合わせも受け付けています。">
+    <meta property="og:site_name" content="有限会社備後商会">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:title" content="ご依頼・お問い合わせ｜有限会社備後商会">
+    <meta property="og:description" content="有限会社備後商会への輸送依頼、求人応募、各種お問い合わせはこちらからご連絡ください。電話でのお問い合わせも受け付けています。">
+    <meta property="og:image" content="/images/ogp.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="stylesheet" href="assets/styles.css">
+    <script>
+      // SNSリンク設定: URL確定後に "#" を実際のURLへ差し替えてください。
+      const INSTAGRAM_URL = "#";
+      const LINE_URL = "#";
+      window.SOCIAL_LINKS = { INSTAGRAM_URL, LINE_URL };
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-top">
+        <a class="brand" href="index.html" aria-label="有限会社 備後商会 ホーム">
+          <span class="brand-mark">B</span>
+          <span><span class="brand-name">有限会社 備後商会</span><span class="brand-sub">岡山県運送サービス</span></span>
+        </a>
+        <div class="header-actions">
+          <a class="phone-link" href="tel:0862383050"><span class="phone-number">086-238-3050</span><span class="hours">受付時間 9:00〜17:00</span></a>
+          <a class="btn btn-social" href="#" data-social="instagram">Instagram</a>
+          <a class="btn btn-social btn-line" href="#" data-social="line">LINE公式</a>
+          <a class="btn btn-primary" href="contact.html">お問い合わせ</a>
+          <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-controls="global-nav" aria-expanded="false"><span></span><span></span><span></span></button>
+        </div>
+      </div>
+      <nav id="global-nav" class="global-nav" aria-label="グローバルナビゲーション">
+        <a href="index.html">ホーム</a>
+        <a href="business.html">事業案内</a>
+        <a href="company.html">会社案内</a>
+        <a href="recruit.html">求人情報</a>
+        <a class="is-active" href="contact.html">ご依頼・お問い合わせ</a>
+        <a class="nav-social" href="#" data-social="instagram">Instagram</a>
+        <a class="nav-social" href="#" data-social="line">LINE公式</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="section-kicker">CONTACT</p>
+        <h1>ご依頼・お問い合わせ</h1>
+        <p>岡山県岡山市東区神崎町の運送会社、有限会社備後商会への輸送のご依頼、大型ドライバー求人に関するお問い合わせなど、お気軽にご連絡ください。内容を確認後、担当者よりご連絡いたします。</p>
+      </section>
+
+      <section class="section contact-layout">
+        <form id="contact-form" class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <label for="name">お名前</label>
+            <input id="name" name="name" type="text" autocomplete="name">
+          </div>
+          <div class="form-row">
+            <label for="kana">ふりがな</label>
+            <input id="kana" name="kana" type="text">
+          </div>
+          <div class="form-row">
+            <label for="address">住所</label>
+            <input id="address" name="address" type="text" autocomplete="street-address">
+          </div>
+          <div class="form-row">
+            <label for="tel">電話番号</label>
+            <input id="tel" name="tel" type="tel" autocomplete="tel">
+          </div>
+          <div class="form-row">
+            <label for="email">メールアドレス</label>
+            <input id="email" name="email" type="email" autocomplete="email">
+          </div>
+          <div class="form-row">
+            <label for="message">ご相談内容</label>
+            <textarea id="message" name="message" rows="7"></textarea>
+          </div>
+          <button class="btn btn-primary form-submit" type="submit">確認画面へ</button>
+        </form>
+
+        <aside class="contact-side">
+          <div class="contact-choice-card">
+            <h2>ご依頼・お問い合わせはお気軽にご連絡ください。</h2>
+            <div class="contact-choice-list">
+              <a class="contact-choice" href="tel:0862383050">
+                <span>電話問い合わせ</span>
+                <strong>086-238-3050</strong>
+                <small>受付時間：9:00〜17:00</small>
+              </a>
+              <a class="contact-choice" href="#contact-form">
+                <span>お問い合わせフォーム</span>
+                <strong>フォームから相談する</strong>
+                <small>内容を確認後、担当者よりご連絡します。</small>
+              </a>
+              <a class="contact-choice" href="#" data-social="line">
+                <span>LINE公式から相談</span>
+                <strong>LINEで相談する</strong>
+                <small>URL確定後にLINE公式アカウントへ接続できます。</small>
+              </a>
+            </div>
+          </div>
+          <figure class="photo-block">
+            <!-- 写真差し替え: public/images/contact-office.jpg（事務所やトラックの落ち着いた写真） -->
+            <img decoding="async" loading="lazy" src="public/images/contact-office.jpg" alt="備後商会へのお問い合わせイメージ" onerror="this.closest('.photo-block').classList.add('is-missing'); this.remove();">
+            <figcaption>contact-office.jpg</figcaption>
+          </figure>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-brand">有限会社 備後商会</p>
+          <p>〒704-8138 岡山県岡山市東区神崎町2232</p>
+          <p>TEL：086-238-3050　FAX：086-946-2476</p>
+          <p>受付時間：9:00〜17:00</p>
+        </div>
+        <nav class="footer-nav" aria-label="フッターナビゲーション">
+          <a href="index.html">ホーム</a><a href="business.html">事業案内</a><a href="company.html">会社案内</a><a href="recruit.html">求人情報</a><a href="contact.html">ご依頼・お問い合わせ</a><a href="#" data-social="instagram">Instagram</a><a href="#" data-social="line">LINE公式</a>
+        </nav>
+      </div>
+      <p class="copyright">© 有限会社 備後商会 All Rights Reserved.</p>
+    </footer>
+    <div class="mobile-quick-actions" aria-label="スマホ用お問い合わせ"><a href="tel:0862383050">電話する</a><a href="contact.html">お問い合わせ</a></div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
