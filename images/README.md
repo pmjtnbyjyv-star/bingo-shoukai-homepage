@@ -4,4 +4,4 @@ SNSやLINEでURLを共有したときに使う画像は、以下のファイル�
 
 - ogp.jpg
 
-各ページのOGP設定では `/images/ogp.jpg` を参照しています。
+各ページのOGP設定では `/public/images/ogp.jpg` を参照しています。

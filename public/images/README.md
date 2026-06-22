@@ -11,5 +11,6 @@
 - recruit-driver.jpg
 - recruit-truck.jpg
 - contact-office.jpg
+- ogp.jpg
 
 写真が未配置の場合は、グレー系の仮画像エリアが表示されます。
