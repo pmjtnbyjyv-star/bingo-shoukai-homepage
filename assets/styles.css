@@ -189,6 +189,23 @@ h3 {
   border-color: var(--navy-soft);
 }
 
+.is-disabled,
+[aria-disabled="true"] {
+  cursor: not-allowed;
+  opacity: 0.62;
+  box-shadow: none;
+}
+
+.btn.is-disabled:hover,
+[aria-disabled="true"]:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+a[data-social="line"] {
+  pointer-events: none;
+}
+
 .btn-light {
   background: var(--white);
   color: var(--navy);

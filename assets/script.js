@@ -12,8 +12,16 @@ if (header && menuButton) {
 
 document.querySelectorAll("[data-social='instagram']").forEach((link) => {
   link.setAttribute("href", socialLinks.INSTAGRAM_URL || "#");
+  link.setAttribute("target", "_blank");
+  link.setAttribute("rel", "noopener noreferrer");
 });
 
 document.querySelectorAll("[data-social='line']").forEach((link) => {
   link.setAttribute("href", socialLinks.LINE_URL || "#");
+  link.setAttribute("aria-disabled", "true");
+  link.setAttribute("tabindex", "-1");
+  link.classList.add("is-disabled");
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+  });
 });

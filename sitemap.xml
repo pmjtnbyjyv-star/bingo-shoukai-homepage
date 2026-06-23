@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- 本番公開URLが決まり次第、https://example.com をNetlifyなどの公開URLに差し替えてください。 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://bingo-shoukai-homepage.netlify.app/</loc>
   </url>
   <url>
-    <loc>https://example.com/business.html</loc>
+    <loc>https://bingo-shoukai-homepage.netlify.app/business.html</loc>
   </url>
   <url>
-    <loc>https://example.com/company.html</loc>
+    <loc>https://bingo-shoukai-homepage.netlify.app/company.html</loc>
   </url>
   <url>
-    <loc>https://example.com/recruit.html</loc>
+    <loc>https://bingo-shoukai-homepage.netlify.app/recruit.html</loc>
   </url>
   <url>
-    <loc>https://example.com/contact.html</loc>
+    <loc>https://bingo-shoukai-homepage.netlify.app/contact.html</loc>
   </url>
 </urlset>

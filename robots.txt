@@ -1,5 +1,4 @@
-# 本番公開URLが決まり次第、SitemapのURLをNetlifyなどの公開URLに差し替えてください。
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://bingo-shoukai-homepage.netlify.app/sitemap.xml
