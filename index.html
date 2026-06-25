@@ -14,7 +14,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://bingo-shoukai-homepage.netlify.app/">
     <link rel="stylesheet" href="assets/styles.css">
-    <!-- 構造化データ: 本番公開URLが決まり次第、urlをNetlifyなどの公開URLに差し替えてください。InstagramとLINE公式のURL確定後はsameAsへ追加できます。 -->
+    <!-- 構造化データ: SNSのURLはsameAsで管理しています。 -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -41,14 +41,15 @@
           "closes": "17:00"
         },
         "sameAs": [
-          "https://www.instagram.com/bingo_shoukai?igsh=MWdjNWZ2a3luMzBnZQ=="
+          "https://www.instagram.com/bingo_shoukai?igsh=MWdjNWZ2a3luMzBnZQ==",
+          "https://lin.ee/wEvdBQy"
         ]
       }
     </script>
     <script>
       // SNSリンク設定: URL確定後に "#" を実際のURLへ差し替えてください。
       const INSTAGRAM_URL = "https://www.instagram.com/bingo_shoukai?igsh=MWdjNWZ2a3luMzBnZQ==";
-      const LINE_URL = "#";
+      const LINE_URL = "https://lin.ee/wEvdBQy";
       window.SOCIAL_LINKS = { INSTAGRAM_URL, LINE_URL };
     </script>
   </head>
@@ -68,7 +69,7 @@
             <span class="hours">受付時間 9:00〜17:00</span>
           </a>
           <a class="btn btn-social" href="#" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a class="btn btn-social btn-line is-disabled" href="#" data-social="line" aria-disabled="true" tabindex="-1">LINE公式 準備中</a>
+          <a class="btn btn-social btn-line" href="#" data-social="line" target="_blank" rel="noopener noreferrer">LINE公式</a>
           <a class="btn btn-primary" href="contact.html">お問い合わせ</a>
           <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-controls="global-nav" aria-expanded="false">
             <span></span><span></span><span></span>
@@ -82,7 +83,7 @@
         <a href="recruit.html">求人情報</a>
         <a href="contact.html">ご依頼・お問い合わせ</a>
         <a class="nav-social" href="#" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a class="nav-social is-disabled" href="#" data-social="line" aria-disabled="true" tabindex="-1">LINE公式 準備中</a>
+        <a class="nav-social" href="#" data-social="line" target="_blank" rel="noopener noreferrer">LINE公式</a>
       </nav>
     </header>
 
@@ -100,7 +101,7 @@
             <a class="btn btn-light" href="recruit.html">求人情報を見る</a>
             <a class="btn btn-outline-light" href="contact.html">お問い合わせ</a>
             <a class="btn btn-outline-light" href="#" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagramで日々の様子を見る</a>
-            <a class="btn btn-light is-disabled" href="#" data-social="line" aria-disabled="true" tabindex="-1">LINE公式 準備中</a>
+            <a class="btn btn-light" href="#" data-social="line" target="_blank" rel="noopener noreferrer">LINEで相談する</a>
           </div>
         </div>
       </section>
@@ -206,7 +207,7 @@
           <a class="btn btn-primary" href="contact.html">ご依頼・お問い合わせへ</a>
           <a class="btn btn-secondary" href="tel:0862383050">086-238-3050</a>
           <a class="btn btn-secondary" href="#" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagramで職場の雰囲気を見る</a>
-          <a class="btn btn-secondary is-disabled" href="#" data-social="line" aria-disabled="true" tabindex="-1">LINE公式 準備中</a>
+          <a class="btn btn-secondary" href="#" data-social="line" target="_blank" rel="noopener noreferrer">LINEで相談する</a>
         </div>
       </section>
     </main>
@@ -226,7 +227,7 @@
           <a href="recruit.html">求人情報</a>
           <a href="contact.html">ご依頼・お問い合わせ</a>
           <a href="#" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="#" data-social="line" aria-disabled="true" tabindex="-1" class="is-disabled">LINE公式 準備中</a>
+          <a href="#" data-social="line"  target="_blank" rel="noopener noreferrer">LINE公式</a>
         </nav>
       </div>
       <p class="copyright">© 有限会社 備後商会 All Rights Reserved.</p>

@@ -18,10 +18,6 @@ document.querySelectorAll("[data-social='instagram']").forEach((link) => {
 
 document.querySelectorAll("[data-social='line']").forEach((link) => {
   link.setAttribute("href", socialLinks.LINE_URL || "#");
-  link.setAttribute("aria-disabled", "true");
-  link.setAttribute("tabindex", "-1");
-  link.classList.add("is-disabled");
-  link.addEventListener("click", (event) => {
-    event.preventDefault();
-  });
+  link.setAttribute("target", "_blank");
+  link.setAttribute("rel", "noopener noreferrer");
 });
