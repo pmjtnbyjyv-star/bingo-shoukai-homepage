@@ -14,19 +14,28 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://bingo-shoukai-homepage.netlify.app/">
     <link rel="stylesheet" href="assets/styles.css">
-    <!-- 構造化データ: SNSのURLはsameAsで管理しています。 -->
+    <!-- 構造化データ: 会社情報・SNS・事業内容をAI検索が読み取りやすい形で管理しています。 -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
+        "@id": "https://bingo-shoukai-homepage.netlify.app/#organization",
         "name": "有限会社 備後商会",
+        "legalName": "有限会社 備後商会",
         "industry": "運送業",
-        "description": "岡山県岡山市東区神崎町を拠点に、セメント輸送・ベントナイト輸送・生コンクリート輸送を行う運送会社です。",
+        "description": "有限会社備後商会は、岡山県岡山市東区神崎町を拠点に、セメント輸送・ベントナイト輸送・生コンクリート輸送を行う運送会社です。ジェットパック車や生コンミキサー車を用いた専門輸送に対応しています。",
         "url": "https://bingo-shoukai-homepage.netlify.app/",
+        "image": "https://bingo-shoukai-homepage.netlify.app/public/images/ogp.jpg",
         "telephone": "086-238-3050",
         "faxNumber": "086-946-2476",
         "priceRange": "要お問い合わせ",
         "additionalType": "https://schema.org/MovingCompany",
+        "areaServed": [
+          "岡山県",
+          "岡山市",
+          "岡山市東区",
+          "神崎町"
+        ],
         "address": {
           "@type": "PostalAddress",
           "postalCode": "704-8138",
@@ -39,6 +48,50 @@
           "@type": "OpeningHoursSpecification",
           "opens": "09:00",
           "closes": "17:00"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "086-238-3050",
+          "contactType": "輸送のご相談・求人お問い合わせ",
+          "availableLanguage": "ja"
+        },
+        "knowsAbout": [
+          "セメント輸送",
+          "ベントナイト輸送",
+          "生コンクリート輸送",
+          "ジェットパック車",
+          "生コンミキサー車",
+          "粉体輸送"
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "備後商会の事業内容",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "セメント輸送",
+                "serviceType": "ジェットパック車によるセメント輸送"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "ベントナイト輸送",
+                "serviceType": "ジェットパック車によるベントナイト輸送"
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "生コンクリート輸送",
+                "serviceType": "生コンミキサー車による生コンクリート輸送"
+              }
+            }
+          ]
         },
         "sameAs": [
           "https://www.instagram.com/bingo_shoukai?igsh=MWdjNWZ2a3luMzBnZQ==",
@@ -82,6 +135,7 @@
         <a href="company.html">会社案内</a>
         <a href="recruit.html">求人情報</a>
         <a href="contact.html">ご依頼・お問い合わせ</a>
+        <a href="faq.html">よくある質問</a>
         <a class="nav-social" href="#" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
         <a class="nav-social" href="#" data-social="line" target="_blank" rel="noopener noreferrer">LINE公式</a>
       </nav>
@@ -117,6 +171,28 @@
           <!-- 写真差し替え: public/images/company-yard.jpg または public/images/truck-yard.jpg（会社の雰囲気が伝わる写真） -->
           <img decoding="async" loading="lazy" src="/public/images/company-yard.jpg" alt="有限会社 備後商会の会社外観または車庫のイメージ">
         </figure>
+      </section>
+
+      <section class="section section-muted aio-summary">
+        <div class="section-heading">
+          <p class="section-kicker">COMPANY SUMMARY</p>
+          <h2>有限会社 備後商会について</h2>
+          <p>有限会社備後商会は、岡山県岡山市東区神崎町を拠点に、セメント輸送・ベントナイト輸送・生コンクリート輸送を行う運送会社です。ジェットパック車や生コンミキサー車を用いた専門輸送に対応し、岡山県内の建設・土木・物流現場を安全で確実な輸送で支えています。</p>
+        </div>
+        <dl class="fact-list">
+          <div>
+            <dt>所在地</dt>
+            <dd>〒704-8138 岡山県岡山市東区神崎町2232</dd>
+          </div>
+          <div>
+            <dt>主な事業</dt>
+            <dd>セメント輸送、ベントナイト輸送、生コンクリート輸送</dd>
+          </div>
+          <div>
+            <dt>対応車両</dt>
+            <dd>ジェットパック車、生コンミキサー車</dd>
+          </div>
+        </dl>
       </section>
 
       <section class="section section-muted">

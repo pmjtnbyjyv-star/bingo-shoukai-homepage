@@ -212,7 +212,7 @@ h3 {
 .global-nav a {
   color: var(--ink);
   font-weight: 800;
-  padding: 14px 18px;
+  padding: 14px 13px;
   border-bottom: 3px solid transparent;
   font-size: 0.94rem;
 }
@@ -475,6 +475,37 @@ h3 {
   justify-content: center;
 }
 
+.aio-summary .section-heading {
+  max-width: 900px;
+}
+
+.fact-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 26px 0 0;
+}
+
+.fact-list div {
+  min-height: 120px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.fact-list dt {
+  color: var(--navy);
+  font-weight: 900;
+  margin-bottom: 8px;
+}
+
+.fact-list dd {
+  margin: 0;
+  color: var(--muted);
+}
+
 .page-hero {
   width: min(100% - 32px, var(--max));
   margin: 0 auto;
@@ -665,6 +696,30 @@ textarea:focus {
   line-height: 1.6;
 }
 
+.faq-section {
+  display: grid;
+  gap: 16px;
+  padding-top: 36px;
+}
+
+.faq-item {
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.faq-item h2 {
+  font-size: 1.22rem;
+  margin-bottom: 0.45em;
+}
+
+.faq-item p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
+
 .site-footer {
   background: var(--navy);
   color: rgba(255, 255, 255, 0.82);
@@ -814,6 +869,7 @@ textarea:focus {
 
   .card-grid,
   .reason-grid,
+  .fact-list,
   .recruit-point-grid {
     grid-template-columns: 1fr;
   }
